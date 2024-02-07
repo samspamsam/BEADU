@@ -1,0 +1,15 @@
+.img-fluid{
+    max-width: 33%;
+}
+.custom-img {
+    max-height: 90vh; /* Set the maximum height as needed */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+@media (min-width: 768px) {
+    .img-fluid{
+        max-width: 10%;
+    }
+    
+    
+}
